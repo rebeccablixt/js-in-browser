@@ -1,0 +1,25 @@
+{
+	"name": "js-in-browser",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "concurrently \"watchify ./index.js -o bundle.js\" \"http-server\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rebeccablixt/js-in-browser.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rebeccablixt/js-in-browser/issues"
+	},
+	"homepage": "https://github.com/rebeccablixt/js-in-browser#readme",
+	"devDependencies": {
+		"concurrently": "^7.1.0",
+		"watchify": "^4.0.0"
+	}
+}
