@@ -4,6 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 		<title>js in browser</title>
 		<script defer src="./bundle.js"></script>
 	</head>
@@ -11,7 +12,18 @@
 		<h1 id="heading">This is my heading</h1>
 
 		<main>
-			<p>this is a p</p>
+			<ul id="food-list">
+				<li id="item-1">
+					hummus <span class="delete-btn" data-item-id="1">x</span>
+				</li>
+				<li id="item-2">
+					cucumber <span class="delete-btn" data-item-id="2">x</span>
+				</li>
+				<li id="item-3">
+					lentil cakes <span class="delete-btn" data-item-id="3">x</span>
+				</li>
+			</ul>
+			<button id="add-item">Add Item</button>
 		</main>
 	</body>
 </html>
